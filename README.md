@@ -1,8 +1,8 @@
-#Multiplication Table
+# Multiplication Table
 
 This project generates and displays a multiplication table using C programming language.
 
-##How to use
+## How to use
 1.Compile the code:
 ```bash
 gcc MultiplicationTable.c -o MultiplicationTable
