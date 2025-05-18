@@ -23,11 +23,6 @@ int main()
     int stopping_value;
     printf("Enter 1 for values till 10 or press 2 for values till 12:\n");
     scanf("%d",&stopping_value);
-    
-    if(stopping_value != 1 || 2){
-        printf("Invalid choice\n");
-    }
-    else{
         printf("The multiplication table is as follows:\n");
         switch (stopping_value)
         {
@@ -42,7 +37,7 @@ int main()
             printf("Invalid choice\a");
             break;
         }
-    }    
+
 
     return 0;
 }
